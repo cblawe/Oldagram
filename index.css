@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.section-container {
+    height: 545px;
+}
+
+.app-logo {
+    width: 127px;
+}
+
+.app-logo,
+.header-container .avatar {
+    margin: 16px;
+}
+
+.avatar {
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.img-post {
+    width: 100%;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon-item {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 24px;
+}
+
+.icon-item:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+/* typography  */
+.user-detail p {
+    margin: 0;
+}
+
+.name,
+.username,
+.likes-count {
+    font-weight: 700;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.likes-count {
+    margin-top: 11.87px;
+    margin-left: 10px;
+    margin-bottom: 0;  
+}
+.caption {
+    margin-left: 10px;
+}
+
+.user-caption {
+    font-weight: 400;
+}
